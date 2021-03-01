@@ -1,3 +1,4 @@
+// FINDINNG THE SUM OF THE GIVEN NO.S USING ARRAYS
 #include<stdio.h>
 #include<conio.h>
 

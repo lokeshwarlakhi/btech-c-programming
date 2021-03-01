@@ -1,3 +1,5 @@
+// SUM OF THE PRIMES TILL GIVEN 'n' FROM 1
+// ps : still have some bluders...gonna update a bit//
 #include<stdio.h>
 #include<conio.h>
 

@@ -1,3 +1,4 @@
+// FINDING THE SUM OF NATURAL NO.S UPTO GIVEN EXTENT
 #include<stdio.h>
 #include<conio.h>
 

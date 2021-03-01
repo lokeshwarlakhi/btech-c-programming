@@ -1,3 +1,4 @@
+// FINDING PRODUCT OF THE DIGITS FOR THE GIVEN NUMBER
 #include<stdio.h>
 #include<conio.h>
 

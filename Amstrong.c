@@ -1,3 +1,4 @@
+/*CHECKING WEATHER THE GIVEN NO. IS AN AMSTRONG NUMBER OR NOT*/
 #include<stdio.h>
 #include<conio.h>
 

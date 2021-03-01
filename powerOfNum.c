@@ -1,3 +1,4 @@
+// FINDING THE POWER OF THE GIVEN NO. TO THE GIVEN NO.
 #include<stdio.h>
 #include<conio.h>
 

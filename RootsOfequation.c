@@ -1,3 +1,5 @@
+// ROOTS OF THE QUADRATIC EQUATION 
+// METHOD - 2
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>

@@ -1,3 +1,4 @@
+// FINDING WEATHER THE GIVEN NO. IS PRIME OR NOT
 #include<stdio.h>
 #include<conio.h>
 // #include<stdlib.h>
@@ -10,7 +11,7 @@ void main(){
 
     if(n == 2 ){
         printf("this is prime");
-        getch();
+        getch(); //exit(0);
     }
     else if(n ==1){
         printf("this is nor a prime nor composite");

@@ -1,3 +1,4 @@
+// FINDING MAX OF THE GIVEN THREE NO.S
 #include<stdio.h>
 #include<conio.h>
 

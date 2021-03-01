@@ -1,3 +1,4 @@
+// FINDING THE FACTORIAL OF THE GIVEN NO.
 #include<stdio.h>
 #include<conio.h>
 

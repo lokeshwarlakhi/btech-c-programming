@@ -1,3 +1,4 @@
+// VOWEL OR CONSONANTS
 #include<stdio.h>
 #include<conio.h>
 
