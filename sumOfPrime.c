@@ -1,35 +1,38 @@
 // SUM OF THE PRIMES TILL GIVEN 'n' FROM 1
 // ps : still have some bluders...gonna update a bit//
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 
-void main(){
+void main()
+{
 
     int n;
-    int sum=0;
-    int prm=1;
-    
+    int sum = 0;
+    int prm = 0;
+
     printf("enter the number ");
-    scanf("%d",&n);
-    int i,j;
-    for( i=2;i<=n;i++){
-        // prm =1;
-        for(int j=2;j<=i;j++){
-            if(i%j ==0){
-                prm =0;
+    scanf("%d", &n);
+    // int i,j;
+    for (int i = 2; i <= n; i++)
+    {
+        prm = 0;
+        for (int j = 2; j < i; j++)
+        {
+            if (i % j == 0)
+            {
+                prm = 1;
                 break;
             }
         }
-        if(prm ==1){
-            printf("%d ",i);
-            // sum += i;
+        if (prm == 0)
+        {
+            // printf("%d ",i);
+            sum += i;
         }
         // prm=1;
     }
 
-    printf("%d",sum);
-
+    printf("%d", sum);
 
     getch();
-
 }
