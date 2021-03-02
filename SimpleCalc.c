@@ -3,37 +3,37 @@
 #include<conio.h>
 
 void main(){
-    int a,b;
+    int a,d;
     char c;
     int val;
 
     printf("enter the number1 ");
     scanf("%d",&a);
     printf("enter the number2 ");
-    scanf("%d",&b);
+    scanf("%d",&d);
     printf("which operator you want(add-'a'/subs-'s'/mult-'m'/divide-'d'");
-    scanf("%s",c);
+    scanf("%s",&c);
 
     switch (c)
     {
     case 'a':
     case '+':
-        val = a+b;
+        val = a+d;
         printf("sum is %d",val);
         break;
     case 's':
     case '-':
-        val = a-b;
+        val = a-d;
         printf("sum is %d",val);
         break;
     case 'm':
     case '*':
-        val = a*b;
+        val = a*d;
         printf("sum is %d",val);
         break;
     case 'd':
     case '/':
-        val = a/b;
+        val = a/d;
         printf("sum is %d",val);
         break;
     
