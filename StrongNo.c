@@ -18,4 +18,6 @@ void main(){
         printf("this is strong no.");
     }
     
+
+    
 }
