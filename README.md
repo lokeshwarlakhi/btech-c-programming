@@ -1,3 +1,0 @@
-# btech-c-programming
-these are the programs given in btech 1st semester....!!! 
-there is no specific order to follow while reading this ....

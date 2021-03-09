@@ -26,7 +26,7 @@ void main()
         }
         if (prm == 0)
         {
-            // printf("%d ",i);
+            printf("%d \n",i);
             sum += i;
         }
         // prm=1;

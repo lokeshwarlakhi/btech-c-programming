@@ -3,6 +3,7 @@
 
 void main(){
     int n;
+    printf("enter the number");
     scanf("%d",&n);
     int fact = 0; 
     int temp2 = n;   
@@ -17,7 +18,10 @@ void main(){
     if(fact == temp2){
         printf("this is strong no.");
     }
+    else{
+        printf("this is not strong no.");
+    }
     
-
+getch();
     
 }
