@@ -11,7 +11,7 @@ void main()
         num = count;  
         sum = 0;  
   
-        while(num)  
+        while(num != 0)  
         {  
             rem = num % 10;  
             sum = sum + (rem * rem * rem);  
@@ -20,7 +20,7 @@ void main()
   
         if(count == sum)  
         {  
-            printf("%d is a Armstrong number\n", count);  
+            printf("%d \n", count);  
         }  
   
         count++;  
