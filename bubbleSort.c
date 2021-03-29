@@ -4,31 +4,27 @@
 void main()
 {
     int n;
+    scanf("%d",&n);
     int ar[n];
+    int i,j,temp;
 
-    for (int i = 0; i <= n; i++)
+    for (int k = 0; k < n; k++)
     {
-        scanf("%d", &ar[i]);
+        scanf("%d", &ar[k]);
     }
 
-    int lok = 1;
-    int tmp;
-    while (lok < n)
-    {
-        for (int i = 0; i < n; i++)
-        {
-            if (ar[i] > ar[i + 1])
-            {
-                tmp = ar[i];
-                ar[i] = ar[i + 1];
-                ar[i + 1] = tmp;
+    for(i =0;i<n;i++){
+        for(j =0;j<n;j++){
+            if (ar[j] > ar[j+1]){
+                temp = ar[j];
+                ar[j] = ar[j+1];
+                ar[j+1] = temp;
             }
         }
-        lok += 1;
     }
-    for (int i = 0; i <= n; i++)
+    for (int k = 0; k < n; k++)
     {
-        printf("%d", &ar[i]);
+        printf("%d\n", ar[k]);
     }
     getch();
 }
