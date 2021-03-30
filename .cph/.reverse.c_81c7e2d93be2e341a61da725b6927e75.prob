@@ -1,0 +1,1 @@
+{"name":"Local: reverse","url":"l:\\VIGNAN\\c_programming\\reverse.c","tests":[{"id":1617077321574,"input":"5\n1 2 3 5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"l:\\VIGNAN\\c_programming\\reverse.c","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: transpose","url":"l:\\VIGNAN\\c_programming\\transpose.c","tests":[{"id":1617075764472,"input":"2\n2\n1\n2\n3\n4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"l:\\VIGNAN\\c_programming\\transpose.c","group":"local","local":true}
