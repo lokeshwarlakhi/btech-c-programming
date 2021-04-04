@@ -19,9 +19,9 @@ void main(){
 
     int key,mid;
     int low = 0 , high = 9;
-    key = 43;
-    while (low < high){
-        mid = (low + high)/2;
+    key = 54;
+    while (low<high){
+        mid = (low + high)/2;//7
         if (key < a[mid]){
             high = mid;
         }

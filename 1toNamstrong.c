@@ -7,7 +7,7 @@ void main()
     scanf("%d",&n);  
   
     while(count <= n)  
-    {  
+    { 
         num = count;  
         sum = 0;  
   
